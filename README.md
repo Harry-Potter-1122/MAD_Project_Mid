@@ -1,71 +1,75 @@
 🏠 **MAD Project – Electricity Usage Tracker**
 
-A Flutter mobile app for tracking and estimating the monthly electricity consumption of a home.
-This beginner-friendly project is developed in Android Studio using Dart & Flutter, and demonstrates multi-screen navigation, state management with setState, and UI design using Material widgets.
+This is a mobile application project developed as part of the Mobile Application Development (MAD) course using **Flutter** and **Dart** in **Android Studio**. The main goal of this project is to calculate and estimate the **monthly electricity consumption** and **bill** of a house, while learning multi-screen navigation, Flutter UI components, and basic app logic without using databases.
 
-⚡ Features
+---
 
-3 Screens with Bottom Navigation:
+👨‍💻 **Project Description**
 
-🏠 Home: Add or delete homes (e.g., Home-1, Home-2)
+The application tracks monthly electricity usage based on the number of electrical appliances and their usage time. The app includes three main screens, accessible via a bottom navigation bar:
 
-⚡ Devices: Add electrical appliances, input wattage and daily usage hours
+- 🏠 **Home Screen:** Add or delete homes (e.g., *Home-1*).  
+- ⚡ **Devices Screen:** Add electrical appliances, enter wattage and daily hours of usage.  
+- ⚙️ **Settings Screen:** Adjust the cost per electricity unit (kWh).  
 
-⚙️ **Settings: Adjust the cost per unit (kWh) of electricity**
+The app automatically calculates the total monthly power consumption and estimated electricity bill using simple formulas and displays the results neatly.
 
-Calculates:
+---
 
-Monthly usage in kWh
+🧩 **Features**
 
-Estimated monthly electricity bill
+- 3 Screens with Bottom Navigation (Home, Devices, Settings)  
+- Add/Delete homes and devices easily  
+- Automatic calculation of energy usage and monthly cost  
+- Uses Floating Action Buttons, Cards, and Material 3 widgets  
+- Clean teal-green interface  
+- Beginner-friendly (no database or API required)
 
-Simple, clean Material Design UI
+---
 
-Uses Floating Action Buttons, Cards, and BottomNavigationBar
+🧮 **Electricity Calculation Formula**
 
-Beginner-friendly (no databases, APIs, or advanced libraries)
-
-🧮 Electricity Calculation Formula
-kWh per month
-=
-(
-Watts
-×
-Hours per day
-×
-30
-)
-1000
-kWh per month=
-1000
-(Watts×Hours per day×30)
-	​
-
-Monthly Bill
-=
-kWh per month
-×
-Rate per unit
-Monthly Bill=kWh per month×Rate per unit
-
+kWh per month = (Watts × Hours per day × 30) / 1000
+Monthly Bill = kWh per month × Rate per unit
 (Default rate = Rs. 30 per kWh)
 
-🧰 Tech Stack
 
-Language: Dart
+---
 
-Framework: Flutter
+🧠 **Learning Outcomes**
 
-IDE: Android Studio
+- Understand basic Flutter project structure  
+- Learn to use `setState()` for simple state management  
+- Practice navigation between multiple screens  
+- Apply logical operations and user input handling  
+- Gain experience in UI design using Flutter widgets  
 
-State Management: setState (basic)
+---
 
-UI: Material 3 widgets
+🧰 **Technologies Used**
 
-📱 Preview
+| Tool | Purpose |
+|------|----------|
+| Flutter | App framework |
+| Dart | Programming language |
+| Android Studio | IDE |
+| Material 3 | UI design |
+| setState | State management |
 
-Add homes and appliances easily
+---
 
-Calculate total monthly electricity cost
+👥 **Collaborators**
 
-Clean teal-green interface for quick usage tracking
+| Name | SAP ID | Role |
+|------|--------|------|
+| M Rehan Mehdi | 55189 | Flutter Developer |
+| Saif Majid Khan | 57114 | UI Designer |
+| Noman Mohsin | 52963 | Logic & Testing |
+
+---
+
+📱 **Preview**
+
+- Add homes and electrical devices  
+- Calculate monthly electricity cost  
+- Simple, clean interface for easy usage tracking  
