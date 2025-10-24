@@ -58,16 +58,6 @@ Monthly Bill = kWh per month × Rate per unit
 
 ---
 
-👥 **Collaborators**
-
-| Name | SAP ID | Role |
-|------|--------|------|
-| M Rehan Mehdi | 55189 | Flutter Developer |
-| Saif Majid Khan | 57114 | UI Designer |
-| Noman Mohsin | 52963 | Logic & Testing |
-
----
-
 📱 **Preview**
 
 - Add homes and electrical devices  
