@@ -1,4 +1,4 @@
-🏠 MAD Project – Electricity Usage Tracker
+🏠 **MAD Project – Electricity Usage Tracker**
 
 A Flutter mobile app for tracking and estimating the monthly electricity consumption of a home.
 This beginner-friendly project is developed in Android Studio using Dart & Flutter, and demonstrates multi-screen navigation, state management with setState, and UI design using Material widgets.
@@ -11,7 +11,7 @@ This beginner-friendly project is developed in Android Studio using Dart & Flutt
 
 ⚡ Devices: Add electrical appliances, input wattage and daily usage hours
 
-⚙️ Settings: Adjust the cost per unit (kWh) of electricity
+⚙️ **Settings: Adjust the cost per unit (kWh) of electricity**
 
 Calculates:
 
