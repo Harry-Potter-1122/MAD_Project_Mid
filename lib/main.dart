@@ -276,7 +276,7 @@ class DevicesScreen extends StatelessWidget {
             child: ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.teal.shade100,
-                child: Icon(Icons.electric_bolt, color: Colors.teal),
+                child: Icon(Icons.electric_bolt, color: Colors.blueAccent),
               ),
               title: Text(item['name'],
                   style: TextStyle(fontWeight: FontWeight.bold)),
@@ -303,7 +303,7 @@ class DevicesScreen extends StatelessWidget {
         onPressed: () => _showAddItemDialog(context),
         label: Text("Add Item"),
         icon: Icon(Icons.add),
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blueAccent,
       ),
     );
   }
@@ -345,7 +345,7 @@ class SettingsScreen extends StatelessWidget {
               },
               icon: Icon(Icons.save),
               label: Text("Save"),
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.teal),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.blueAccent),
             ),
           ],
         ),
